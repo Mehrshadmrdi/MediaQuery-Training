@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Farro:wght@300&family=Glory:ital,wght@1,800&family=Noto+Sans+Arabic:wght@200&family=Poppins:wght@200&family=Rowdies:wght@700&family=Vazirmatn:wght@200&family=Yusei+Magic&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+*, *:before , *:after{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: Vazirmatn;
+}
+
+
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color: #1c77c4;
+}
+
+
+/*
+- Media Queries
+*/
+
+
+@media print {
+    h1{
+        color: #000;
+    }
+}
