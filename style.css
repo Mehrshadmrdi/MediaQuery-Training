@@ -36,8 +36,8 @@ h1{
 */
 
 
-@media screen and (orientation: portrait) {
+@media screen,print  {
     h1{
-        font-size: 46px;
+        color: black;
     }
 }
