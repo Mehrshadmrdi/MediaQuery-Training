@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Jost';
+    src: url(../fonts/Jost-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Jost-Medium';
+    src: url(../fonts/Jost-Medium.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Jost-Regular';
+    src: url(../fonts/Jost-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
