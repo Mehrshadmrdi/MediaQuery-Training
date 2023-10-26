@@ -19,7 +19,7 @@ body{
 
 .container{
     background-color:hotpink;
-    width: 100%;
+    max-width: 1200px;
     height:300px;
     margin:0 auto; 
 }
@@ -37,31 +37,29 @@ h1{
 */
 
 
-@media screen and (min-width: 576px){
+@media onscreen and (max-width: 1200px){
     .container{
-        width: 576px; ;
-    }
-    h1{
-        font-size: 20px;
+        max-width: 992px;
+    }   
+}
+
+
+@media only screen and (max-width: 992px){
+    .container{
+        max-width: 768px;
     }
 }
 
 
-@media screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     .container{
-        width: 768px; ;
-    }
-    h1{
-        font-size: 30px;
+        max-width: 576px;
     }
 }
 
 
-@media screen and (min-width: 992px){
+@media only screen and (max-width: 576px){
     .container{
-        width: 992px; ;
-    }
-    h1{
-        font-size: 40px;
+        max-width: 100%;
     }
 }
