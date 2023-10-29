@@ -38,12 +38,14 @@ body{
 
 
 .nav{
-
+    padding-top: 30px;
 }
 
 
 .wrapper{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -59,11 +61,12 @@ body{
 
 .menu{
     display: flex;
+    align-items: center;
 }
 
 
 .menu__item{
-
+    margin-left: 20px;
 }
 
 
@@ -71,11 +74,16 @@ body{
     text-decoration: none;
     color:#160B38;
     font-family: "Jost-medium";
+    display: block;
 }
 
 
 .menu__link-active{
-
+    background-color: #3B1c99;
+    color: #fff;
+    border-radius:13px 13px 0px 13px;
+    padding: 12px 25px;
+    font-family: 'Jost-medium';
 }
 
 
