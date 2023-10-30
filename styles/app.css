@@ -71,11 +71,13 @@ body{
 .menu{
     display: flex;
     align-items: center;
+    transition: left 0.3s ease-in-out;
 }
 
 
 .menu__item{
     margin-left: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -94,6 +96,12 @@ body{
     padding: 12px 25px;
     font-family: 'Jost-Bold';
     text-decoration: none;
+}
+
+
+.nav__icon{
+    display: none;
+    font-size: 30px;
 }
 
 
@@ -190,6 +198,29 @@ body{
     .container{
         max-width: 540px;
     }
+    .nav__icon{
+        display: block;
+    }
+    .menu{
+        display: block;
+        position: fixed;
+        left: -270px;
+        top: 0px;
+        bottom: 0;
+        background: #fff;
+        z-index: 2;
+        padding: 25px;
+        width: 220px;
+        text-align: center;
+    }
+    .menu__item{
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .page-content{
+
+    }
+    .
 }
 
 
