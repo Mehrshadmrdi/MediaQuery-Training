@@ -75,7 +75,7 @@ body{
 
 
 .menu__item{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-bottom: 25px;
 }
 
@@ -239,5 +239,11 @@ body{
     .container{
         max-width: 100%;
         padding: 0 35px;
+    }
+    .page-content__title{
+        font-size: 56px;
+    }
+    .page-content__caption{
+        font-size: 20px;
     }
 }
